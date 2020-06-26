@@ -57,6 +57,10 @@ h2 {
   margin: auto;
 }
 
+.container > img {
+  width: 25%;
+}
+
 .button {
   padding: 20px;
   min-width: 150px;
@@ -99,8 +103,7 @@ h2 {
 .dual > * {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  max-width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -224,6 +227,10 @@ textarea {
   .dual {
     height: inherit;
     flex-direction: column;
+  }
+
+  .dual > * {
+    width: 100%;
   }
 
   .overwrite h2 {
